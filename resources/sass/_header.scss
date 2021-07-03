@@ -1,0 +1,34 @@
+header{
+	background-color: #004da6;
+	margin-bottom: 50px;
+
+	.navbar-brand{
+		.fa-logo{
+			font-size: 25px;
+		}
+	}
+
+	.nav-item{
+
+		.nav-link{
+			font-size: 1.5em;
+			color: #FFF;
+			&:hover{
+				color: #a9a9a9;
+			}
+		}
+	}
+
+	.navbar-toggler{
+		.fa-bars{
+			color: #FFF;
+			font-size: 30px;
+		}
+
+		&:focus{
+			box-shadow: unset;
+		}
+	}
+
+
+}
